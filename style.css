@@ -1,0 +1,51 @@
+/* Basic Reset */
+* {
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: 'Lucida Console', Monospace;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: pink;
+  }
+
+  .header {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    margin-top: 10px;
+  }
+
+  .photo {
+    display:flex;
+    align-items: center;
+    margin: 30px;
+  }
+
+  .profile-img {
+    width: 190px;
+    height: auto;
+    border-radius: 0%;
+  }
+
+  div {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    color:darkblue;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
